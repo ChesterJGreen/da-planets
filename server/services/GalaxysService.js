@@ -30,16 +30,15 @@ class GalaxysService {
     return await dbContext.Galaxys.findByIdAndDelete(id)
   }
 }
-  // async create(valueData) {
-  //   if (!valueData) { throw new BadRequest('Invalid value data') }
-  //   // left intentionally useless
-  //   return valueData
-  // }
+// async create(valueData) {
+//   if (!valueData) { throw new BadRequest('Invalid value data') }
+//   // left intentionally useless
+//   return valueData
+// }
 
-  // async find(query = {}) {
-  //   // left intentionally useless
-  //   return ['value1', 'value2']
-  // }
-}
+// async find(query = {}) {
+//   // left intentionally useless
+//   return ['value1', 'value2']
+// }
 
 export const galaxysService = new GalaxysService()
